@@ -1,0 +1,27 @@
+# Chặn đứng tuyệt đối thư mục PubCache của Flutter ở mọi cấp độ
+.pub-cache/
+pub-cache/
+.pub-get-json
+.dart_tool/
+
+# Chặn file cấu hình môi trường bảo mật cục bộ
+.env
+.env.local
+
+# Chặn các file rác của hệ điều hành
+.DS_Store
+Thumbs.db
+
+# Chặn file rác IDEs
+.idea/
+.vscode/
+*.iml
+
+# Chặn file build của Backend (Spring Boot target)
+**/target/
+*.class
+*.jar
+*.war
+
+# Chặn file build của Frontend (Flutter build)
+**/build/
